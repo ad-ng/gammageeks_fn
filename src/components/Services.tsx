@@ -7,23 +7,23 @@ const Services = () => {
   const services = [
     {
       icon: Briefcase,
-      title: "Development",
+      title: "Web & Mobile Apps Development",
       description: "Full-stack development solutions using cutting-edge technologies and best practices.",
-      features: ["React & Next.js", "Node.js & Python", "Cloud Architecture", "API Development"],
+      features: ["React & Next.js", "Node.js & Nestjs","UI/UX", "Flutter", "API Development", "AWS", "Deployment"],
       gradient: "from-[#46eefb] to-[#c775b7]"
     },
     {
       icon: LayoutDashboard,
-      title: "Design",
+      title: "Digital Presence Consultancy",
       description: "User-centered design that combines aesthetics with exceptional user experience.",
-      features: ["UI/UX Design", "Brand Identity", "Prototyping", "Design Systems"],
+      features: ["Social Network", "SEO", "Paid Marketing", "Email Marketing", "Blog", "Forum"],
       gradient: "from-[#46eefb] to-[#c775b7]"
     },
     {
       icon: Users,
-      title: "Digital Strategy",
+      title: "Creative Design & MultiMedia Services",
       description: "Strategic consulting to help businesses thrive in the digital landscape.",
-      features: ["Digital Transformation", "Product Strategy", "Growth Hacking", "Analytics"],
+      features: ["Videography", "Photography", "Animation", "Editing"],
       gradient: "from-[#46eefb] to-[#c775b7]"
     }
   ];

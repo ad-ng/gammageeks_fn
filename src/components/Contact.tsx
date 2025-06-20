@@ -37,21 +37,6 @@ const Contact = () => {
               </Button>
             </CardContent>
           </Card>
-          
-          <Card className="bg-white/10 backdrop-blur-sm border-white/20 hover:bg-white/20 transition-all duration-300 hover:scale-105">
-            <CardContent className="p-8 text-center">
-              <div className="w-16 h-16 bg-gradient-to-r from-[#46eefb] to-[#c775b7] rounded-full flex items-center justify-center mx-auto mb-6">
-                <Users className="w-8 h-8 text-black" />
-              </div>
-              <h3 className="text-2xl font-bold text-white mb-4">Join Our Community</h3>
-              <p className="text-gray-300 mb-6 leading-relaxed">
-                Connect with like-minded developers, designers, and strategists in our growing community.
-              </p>
-              <Button variant="outline" className="border-white/30 text-white hover:bg-white/10">
-                Join Community
-              </Button>
-            </CardContent>
-          </Card>
         </div>
         
         <div className="bg-white/10 backdrop-blur-sm border-white/20 rounded-2xl p-8">
@@ -61,10 +46,7 @@ const Contact = () => {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button className="bg-gradient-to-r from-[#46eefb] to-[#c775b7] hover:from-[#46eefb]/80 hover:to-[#c775b7]/80 text-black border-0 px-8">
-              hello@gammaGeeks.dev
-            </Button>
-            <Button variant="outline" className="border-white/30 text-white hover:bg-white/10 px-8">
-              Schedule a Call
+              info@gammaGeeks.dev
             </Button>
           </div>
         </div>
@@ -73,7 +55,7 @@ const Contact = () => {
       {/* Footer */}
       <div className="mt-16 pt-8 border-t border-white/20 text-center">
         <p className="text-gray-300">
-          © 2024 GammaGeeks. Crafted with ❤️ by our vibrant community.
+          © 2025 GammaGeeks
         </p>
       </div>
     </section>
