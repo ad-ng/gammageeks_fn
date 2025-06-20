@@ -2,14 +2,18 @@
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { ArrowRight, Star } from "lucide-react";
+import MyImage from '../../public/gammageeks.png';
 
 const Hero = () => {
   return (
     <section className="relative min-h-screen flex items-center justify-center px-4 overflow-hidden">
       {/* Logo Area */}
-      <div className="absolute top-8 left-8 w-16 h-16 bg-gradient-to-r from-[#46eefb] to-[#c775b7] rounded-full flex items-center justify-center shadow-lg z-20">
-        <span className="text-black font-bold text-xl">GG</span>
-      </div>
+      {/* <div className="absolute top-8 left-8 w-16 h-16 bg-gradient-to-r from-[#46eefb] to-[#c775b7] rounded-full flex items-center justify-center shadow-lg z-20">
+        <span className="text-black font-bold text-xl">GammaGeek </span>
+      </div> */}
+      <div className="absolute top-8 left-8 w-1/6 ">
+      <img src={MyImage} alt="app logo" />
+     </div>
 
       {/* Background Effects */}
       <div className="absolute inset-0 bg-gradient-to-r from-[#46eefb]/10 via-[#c775b7]/10 to-[#46eefb]/10 animate-pulse" />
@@ -31,13 +35,16 @@ const Hero = () => {
         </p>
         
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center animate-fade-in">
-          <Button 
-            size="lg" 
+        <a href="#portfolio">
+          <Button
+            size="lg"
             className="bg-gradient-to-r from-[#46eefb] to-[#c775b7] hover:from-[#46eefb]/80 hover:to-[#c775b7]/80 text-black border-0 px-8 py-6 text-lg font-semibold transition-all duration-300 hover:scale-105 hover:shadow-2xl"
           >
             Explore Our Work
-            <ArrowRight className="ml-2 w-5 h-5" />
+          <ArrowRight className="ml-2 w-5 h-5" />
           </Button>
+        </a>
+
         </div>
         
         <div className="mt-16 grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto">
