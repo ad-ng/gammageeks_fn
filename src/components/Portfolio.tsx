@@ -2,36 +2,40 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Link } from "lucide-react";
+import myRootImage from "./../../public/myroot.png"
+import nearImage from "./../../public/nearme.png"
+import elnasa from "./../../public/elnasa.png"
+import kigaluxe from "./../../public/kigaluxe.png"
 
 const Portfolio = () => {
   const projects = [
     {
-      title: "EcoTech Dashboard",
-      description: "A comprehensive sustainability tracking platform for enterprise clients.",
-      image: "https://images.unsplash.com/photo-1605810230434-7631ac76ec81?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
+      title: "kigaluxe.estate",
+      description: "Kigaluxe is a modern platform designed to showcase premium properties in Rwanda. It connects property owners, agents, and potential clients, creating a seamless experience for property exploration and management",
+      image: kigaluxe,
       tags: ["React", "Node.js", "Analytics"],
       category: "Web Development"
     },
     {
-      title: "FinanceFlow Mobile",
-      description: "Next-generation fintech mobile application with AI-powered insights.",
-      image: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2069&q=80",
+      title: "myroots.shop",
+      description: "MyRoots.shop is a culturally-driven e-commerce brand and movement celebrating Black identity and African heritage through thoughtfully designed lifestyle products",
+      image: myRootImage,
       tags: ["React Native", "AI/ML", "Finance"],
+      category: "E-commerce"
+    },
+    {
+      title: "Everything NearMe",
+      description: "Near Me is a location-based backend API that helps travelers and locals discover nearby services, attractions, and businesses. It offers features like location search, service filtering, user reviews, and real-time.",
+      image: nearImage,
+      tags: ["Flutter", "Node js", "Firebase", "GoogleMaps"],
       category: "Mobile Development"
     },
     {
-      title: "BrandVision Suite",
-      description: "Complete brand identity and design system for a tech startup.",
-      image: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
-      tags: ["Design System", "Branding", "UI/UX"],
-      category: "Design"
-    },
-    {
-      title: "CloudScale Architecture",
-      description: "Scalable cloud infrastructure for high-traffic e-commerce platform.",
-      image: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2072&q=80",
-      tags: ["AWS", "Microservices", "DevOps"],
-      category: "Cloud Solutions"
+      title: "elnasa.com",
+      description: "A healthcare consulting firm that specializes in helping medical businesses launch, grow, and operate efficiently. They offer expert services in policy development, operational strategy, and regulatory compliance for clinics, hospitals, and healthcare startups.",
+      image: elnasa,
+      tags: ["React","Node","AWS", "Microservices"],
+      category: "Web Development"
     },
     {
       title: "DataInsight Pro",
@@ -40,13 +44,6 @@ const Portfolio = () => {
       tags: ["Data Science", "Visualization", "Python"],
       category: "Analytics"
     },
-    {
-      title: "ConnectHub Platform",
-      description: "Social networking platform with advanced community features.",
-      image: "https://images.unsplash.com/photo-1605810230434-7631ac76ec81?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
-      tags: ["Social", "Real-time", "Community"],
-      category: "Platform"
-    }
   ];
 
   return (

@@ -36,16 +36,16 @@ const Team = () => {
     {
       name: "MBONIMPA Jean Claude",
       role: "Software Engineer",
-      image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&h=400&fit=crop&crop=face",
+      image: "https://media.licdn.com/dms/image/v2/D4D03AQFYWAFF1plb0Q/profile-displayphoto-scale_400_400/B4DZeNAs5NH4Ag-/0/1750417461537?e=1755734400&v=beta&t=-_0pVJX4Od8YKbPKGENOjQ0YB6gYL5lpONFe7_RTbtE",
       skills: ["React", "Node js","Html","CSS","Javascript", "git"],
       bio: "Expert in building scalable, high-performance web apps with modern frameworks"
     },
     {
       name: "Serge RWOGERA",
-      role: "Data Scientist",
-      image: "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?w=400&h=400&fit=crop&crop=face",
-      skills: ["Python", "Machine Learning", "Analytics", "Visualization"],
-      bio: "Data expert who turns complex datasets into actionable insights and intelligent solutions."
+      role: "Graphic Designer",
+      image: "https://media.licdn.com/dms/image/v2/D4D03AQHP0oq5kwUrJA/profile-displayphoto-scale_400_400/B4DZeM0WjUGgAg-/0/1750414226347?e=1755734400&v=beta&t=8xsqtKOJwIMLYCmAFZr8szCVYRvYb1XcYI1h9dpnwVM",
+      skills: ["UI/UX Specialist ", "Video Creator", "Video & Photo Editing","Figma", "Photoshop", "Illustrator"],
+      bio: "I design bold visuals, intuitive interfaces, and dynamic videos that tell powerful stories. From branding to user flows to motion content. I bring ideas to life with creativity and clarity."
     }
   ];
 

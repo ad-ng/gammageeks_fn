@@ -17,11 +17,6 @@ const Hero = () => {
       <div className="absolute bottom-20 right-20 w-96 h-96 bg-[#c775b7]/5 rounded-full blur-3xl animate-pulse delay-1000" />
       
       <div className="relative z-10 text-center max-w-6xl mx-auto">
-        <Badge className="mb-6 bg-gradient-to-r from-[#46eefb] to-[#c775b7] text-black border-0 px-4 py-2 text-sm font-medium animate-fade-in">
-          <Star className="w-4 h-4 mr-2" />
-          Cutting-Edge Tech Solutions
-        </Badge>
-        
         <h1 className="text-6xl md:text-8xl font-bold mb-8 bg-gradient-to-r from-[#46eefb] to-[#c775b7] bg-clip-text text-transparent animate-fade-in">
           GammaGeeks
         </h1>
