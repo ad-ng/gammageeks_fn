@@ -38,14 +38,6 @@ const Hero = () => {
             Explore Our Work
             <ArrowRight className="ml-2 w-5 h-5" />
           </Button>
-          
-          <Button 
-            variant="outline" 
-            size="lg"
-            className="border-white/30 text-white hover:bg-white/10 px-8 py-6 text-lg font-semibold transition-all duration-300 hover:scale-105"
-          >
-            Join Our Community
-          </Button>
         </div>
         
         <div className="mt-16 grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto">
