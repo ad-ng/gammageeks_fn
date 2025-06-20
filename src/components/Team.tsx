@@ -6,9 +6,9 @@ import { Github, Linkedin, Twitter } from "lucide-react";
 const Team = () => {
   const teamMembers = [
     {
-      name: "Alex Chen",
-      role: "Lead Developer",
-      image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&crop=face",
+      name: "MUSANGAMFURA Vincent",
+      role: "CEO",
+      image: "https://media.licdn.com/dms/image/v2/C4E03AQFC3t5cyDD_gA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1580390126451?e=1755734400&v=beta&t=dtgSoaGaBCD_yr8tcKe28mMZNDeunZ-xcx26jtednIw",
       skills: ["React", "Node.js", "TypeScript", "Cloud Architecture"],
       bio: "Full-stack developer with 8+ years of experience building scalable web applications."
     },
@@ -27,21 +27,21 @@ const Team = () => {
       bio: "Infrastructure specialist focused on building reliable, scalable deployment pipelines."
     },
     {
-      name: "Emily Zhang",
-      role: "Product Strategist",
-      image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400&h=400&fit=crop&crop=face",
-      skills: ["Product Management", "Analytics", "Strategy", "Growth"],
-      bio: "Strategic thinker who transforms ideas into successful products through data-driven insights."
+      name: "NGOGA Adolphe",
+      role: "Software Engineer",
+      image: "https://media.licdn.com/dms/image/v2/D4D03AQGsvWpE2W_dMw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1723027703094?e=1755734400&v=beta&t=TjaUM9aQoxnc47IMB3NjoVCGmAZZ_s0VTuUO15vWoCs",
+      skills: ["Node js", "Flutter", "AWS", "Docker", "Kubernetes", "CI/CD"],
+      bio: "Backend & Mobile specialist creating seamless cross-platform experiences for iOS and Android."
     },
     {
-      name: "David Kim",
-      role: "Mobile Developer",
+      name: "MBONIMPA Jean Claude",
+      role: "Software Engineer",
       image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&h=400&fit=crop&crop=face",
-      skills: ["React Native", "Flutter", "Swift", "Kotlin"],
-      bio: "Mobile specialist creating seamless cross-platform experiences for iOS and Android."
+      skills: ["React", "Node js","Html","CSS","Javascript", "git"],
+      bio: "Expert in building scalable, high-performance web apps with modern frameworks"
     },
     {
-      name: "Lisa Thompson",
+      name: "Serge RWOGERA",
       role: "Data Scientist",
       image: "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?w=400&h=400&fit=crop&crop=face",
       skills: ["Python", "Machine Learning", "Analytics", "Visualization"],
