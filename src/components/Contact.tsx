@@ -22,7 +22,7 @@ const Contact = () => {
           </p>
         </div>
         
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
+        <div>
           <Card className="bg-white/10 backdrop-blur-sm border-white/20 hover:bg-white/20 transition-all duration-300 hover:scale-105">
             <CardContent className="p-8 text-center">
               <div className="w-16 h-16 bg-gradient-to-r from-[#46eefb] to-[#c775b7] rounded-full flex items-center justify-center mx-auto mb-6">
@@ -38,7 +38,7 @@ const Contact = () => {
             </CardContent>
           </Card>
         </div>
-        
+        <br />
         <div className="bg-white/10 backdrop-blur-sm border-white/20 rounded-2xl p-8">
           <h3 className="text-2xl font-bold text-white mb-4">Connect With Us</h3>
           <p className="text-gray-300 mb-6">
