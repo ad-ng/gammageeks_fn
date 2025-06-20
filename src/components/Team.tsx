@@ -1,0 +1,114 @@
+
+import { Card, CardContent } from "@/components/ui/card";
+import { Badge } from "@/components/ui/badge";
+import { Github, Linkedin, Twitter } from "lucide-react";
+
+const Team = () => {
+  const teamMembers = [
+    {
+      name: "Alex Chen",
+      role: "Lead Developer",
+      image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&crop=face",
+      skills: ["React", "Node.js", "TypeScript", "Cloud Architecture"],
+      bio: "Full-stack developer with 8+ years of experience building scalable web applications."
+    },
+    {
+      name: "Sarah Rodriguez",
+      role: "UI/UX Designer",
+      image: "https://images.unsplash.com/photo-1494790108755-2616b332c1d2?w=400&h=400&fit=crop&crop=face",
+      skills: ["Figma", "Design Systems", "User Research", "Prototyping"],
+      bio: "Creative designer passionate about crafting intuitive user experiences and beautiful interfaces."
+    },
+    {
+      name: "Marcus Johnson",
+      role: "DevOps Engineer",
+      image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=400&fit=crop&crop=face",
+      skills: ["AWS", "Docker", "Kubernetes", "CI/CD"],
+      bio: "Infrastructure specialist focused on building reliable, scalable deployment pipelines."
+    },
+    {
+      name: "Emily Zhang",
+      role: "Product Strategist",
+      image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400&h=400&fit=crop&crop=face",
+      skills: ["Product Management", "Analytics", "Strategy", "Growth"],
+      bio: "Strategic thinker who transforms ideas into successful products through data-driven insights."
+    },
+    {
+      name: "David Kim",
+      role: "Mobile Developer",
+      image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&h=400&fit=crop&crop=face",
+      skills: ["React Native", "Flutter", "Swift", "Kotlin"],
+      bio: "Mobile specialist creating seamless cross-platform experiences for iOS and Android."
+    },
+    {
+      name: "Lisa Thompson",
+      role: "Data Scientist",
+      image: "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?w=400&h=400&fit=crop&crop=face",
+      skills: ["Python", "Machine Learning", "Analytics", "Visualization"],
+      bio: "Data expert who turns complex datasets into actionable insights and intelligent solutions."
+    }
+  ];
+
+  return (
+    <section className="py-24 px-4 relative">
+      <div className="max-w-7xl mx-auto">
+        <div className="text-center mb-16">
+          <h2 className="text-4xl md:text-5xl font-bold mb-6 bg-gradient-to-r from-[#46eefb] to-[#c775b7] bg-clip-text text-transparent">
+            Meet Our Team
+          </h2>
+          <p className="text-xl text-white max-w-3xl mx-auto leading-relaxed">
+            The talented individuals behind GammaGeeks, each bringing unique expertise and passion to every project.
+          </p>
+        </div>
+        
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          {teamMembers.map((member, index) => (
+            <Card key={index} className="bg-white/10 backdrop-blur-sm border-white/20 hover:bg-white/20 transition-all duration-500 hover:scale-105 hover:shadow-2xl group">
+              <CardContent className="p-6">
+                <div className="text-center mb-4">
+                  <div className="relative mx-auto mb-4">
+                    <img 
+                      src={member.image} 
+                      alt={member.name}
+                      className="w-24 h-24 rounded-full object-cover mx-auto ring-4 ring-gradient-to-r from-[#46eefb] to-[#c775b7] group-hover:scale-110 transition-transform duration-300"
+                    />
+                  </div>
+                  <h3 className="text-xl font-bold text-white mb-1">{member.name}</h3>
+                  <Badge className="bg-gradient-to-r from-[#46eefb] to-[#c775b7] text-black border-0 mb-3">
+                    {member.role}
+                  </Badge>
+                </div>
+                
+                <p className="text-gray-300 text-sm mb-4 leading-relaxed">
+                  {member.bio}
+                </p>
+                
+                <div className="flex flex-wrap gap-1 mb-4">
+                  {member.skills.map((skill, skillIndex) => (
+                    <Badge key={skillIndex} variant="secondary" className="bg-white/10 text-gray-300 text-xs">
+                      {skill}
+                    </Badge>
+                  ))}
+                </div>
+                
+                <div className="flex justify-center space-x-3">
+                  <button className="w-8 h-8 bg-gradient-to-r from-[#46eefb] to-[#c775b7] rounded-full flex items-center justify-center hover:scale-110 transition-transform duration-200">
+                    <Github className="w-4 h-4 text-black" />
+                  </button>
+                  <button className="w-8 h-8 bg-gradient-to-r from-[#46eefb] to-[#c775b7] rounded-full flex items-center justify-center hover:scale-110 transition-transform duration-200">
+                    <Linkedin className="w-4 h-4 text-black" />
+                  </button>
+                  <button className="w-8 h-8 bg-gradient-to-r from-[#46eefb] to-[#c775b7] rounded-full flex items-center justify-center hover:scale-110 transition-transform duration-200">
+                    <Twitter className="w-4 h-4 text-black" />
+                  </button>
+                </div>
+              </CardContent>
+            </Card>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default Team;
