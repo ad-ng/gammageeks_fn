@@ -15,15 +15,15 @@ const Services = () => {
     {
       icon: LayoutDashboard,
       title: "Digital Presence Consultancy",
-      description: "User-centered design that combines aesthetics with exceptional user experience.",
+      description: "From optimizing your online platforms to aligning your brand voice across channels, we make sure your presence leaves a lasting impact. Stand out, stay consistent, and grow with purpose.",
       features: ["Social Network", "SEO", "Paid Marketing", "Email Marketing", "Blog", "Forum"],
       gradient: "from-[#46eefb] to-[#c775b7]"
     },
     {
       icon: Users,
       title: "Creative Design & MultiMedia Services",
-      description: "Strategic consulting to help businesses thrive in the digital landscape.",
-      features: ["Videography", "Photography", "Animation", "Editing"],
+      description: "we take your brand out of the ordinary and differentiate it from your competitors. Customized Design Strategy for Your Brand.",
+      features: ["Photography", "Animation", "Graphic Design", "Video Editing", "Copy Writing"],
       gradient: "from-[#46eefb] to-[#c775b7]"
     }
   ];

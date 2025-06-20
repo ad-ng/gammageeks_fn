@@ -7,10 +7,6 @@ import MyImage from '../../public/gammageeks.png';
 const Hero = () => {
   return (
     <section className="relative min-h-screen flex items-center justify-center px-4 overflow-hidden">
-      {/* Logo Area */}
-      {/* <div className="absolute top-8 left-8 w-16 h-16 bg-gradient-to-r from-[#46eefb] to-[#c775b7] rounded-full flex items-center justify-center shadow-lg z-20">
-        <span className="text-black font-bold text-xl">GammaGeek </span>
-      </div> */}
       <div className="absolute top-8 left-8 w-1/6 ">
       <img src={MyImage} alt="app logo" />
      </div>
