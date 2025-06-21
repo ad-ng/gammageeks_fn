@@ -45,9 +45,11 @@ const Contact = () => {
             Ready to start your next project or join our community of innovators?
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button className="bg-gradient-to-r from-[#46eefb] to-[#c775b7] hover:from-[#46eefb]/80 hover:to-[#c775b7]/80 text-black border-0 px-8">
+            <a href="mailto: info@gammaGeeks.dev">
+              <Button className="bg-gradient-to-r from-[#46eefb] to-[#c775b7] hover:from-[#46eefb]/80 hover:to-[#c775b7]/80 text-black border-0 px-8">
               info@gammaGeeks.dev
             </Button>
+            </a>
           </div>
         </div>
       </div>
