@@ -10,42 +10,60 @@ const Team = () => {
       role: "CEO",
       image: "https://media.licdn.com/dms/image/v2/C4E03AQFC3t5cyDD_gA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1580390126451?e=1755734400&v=beta&t=dtgSoaGaBCD_yr8tcKe28mMZNDeunZ-xcx26jtednIw",
       skills: ["React", "Node.js", "TypeScript", "Cloud Architecture"],
-      bio: "Full-stack developer with 8+ years of experience building scalable web applications."
+      bio: "Full-stack developer with 8+ years of experience building scalable web applications.",
+      linked: "https://www.linkedin.com/in/vincent-musangamfura-225a2a11b/",
+      github: "",
+      twitter: "https://x.com/musangamfura_V"
     },
     {
       name: "Sarah Rodriguez",
       role: "UI/UX Designer",
-      image: "https://images.unsplash.com/photo-1494790108755-2616b332c1d2?w=400&h=400&fit=crop&crop=face",
+      image: "https://cmsi.gse.rutgers.edu/sites/default/files/srod%20%282%29.jpg",
       skills: ["Figma", "Design Systems", "User Research", "Prototyping"],
-      bio: "Creative designer passionate about crafting intuitive user experiences and beautiful interfaces."
+      bio: "Creative designer passionate about crafting intuitive user experiences and beautiful interfaces.",
+      linked: "",
+      github: "",
+      twitter: ""
     },
     {
       name: "Marcus Johnson",
       role: "DevOps Engineer",
       image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=400&fit=crop&crop=face",
       skills: ["AWS", "Docker", "Kubernetes", "CI/CD"],
-      bio: "Infrastructure specialist focused on building reliable, scalable deployment pipelines."
+      bio: "Infrastructure specialist focused on building reliable, scalable deployment pipelines.",
+      linked: "https://www.linkedin.com/in/vincent-musangamfura-225a2a11b/",
+      github: "",
+      twitter: ""
     },
     {
       name: "NGOGA Adolphe",
       role: "Software Engineer",
       image: "https://media.licdn.com/dms/image/v2/D4D03AQGsvWpE2W_dMw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1723027703094?e=1755734400&v=beta&t=TjaUM9aQoxnc47IMB3NjoVCGmAZZ_s0VTuUO15vWoCs",
       skills: ["Node js", "Flutter", "AWS", "Docker", "Kubernetes", "CI/CD"],
-      bio: "Backend & Mobile specialist creating seamless cross-platform experiences for iOS and Android."
+      bio: "Backend & Mobile specialist creating seamless cross-platform experiences for iOS and Android.",
+      linked: "https://www.linkedin.com/in/ngoga-adolphe",
+      github: "https://github.com/ad-ng",
+      twitter: "https://x.com/AdolpheNgoga"
     },
     {
       name: "MBONIMPA Jean Claude",
       role: "Software Engineer",
       image: "https://media.licdn.com/dms/image/v2/D4D03AQFYWAFF1plb0Q/profile-displayphoto-scale_400_400/B4DZeNAs5NH4Ag-/0/1750417461537?e=1755734400&v=beta&t=-_0pVJX4Od8YKbPKGENOjQ0YB6gYL5lpONFe7_RTbtE",
       skills: ["React", "Node js","Html","CSS","Javascript", "git"],
-      bio: "Expert in building scalable, high-performance web apps with modern frameworks"
+      bio: "Expert in building scalable, high-performance web apps with modern frameworks",
+      linked: "https://www.linkedin.com/in/jean-claude-mbonimpa-6619b1154/",
+      github: "https://github.com/Mboni1",
+      twitter: ""
     },
     {
       name: "Serge RWOGERA",
       role: "Graphic Designer",
       image: "https://media.licdn.com/dms/image/v2/D4D03AQHP0oq5kwUrJA/profile-displayphoto-scale_400_400/B4DZeM0WjUGgAg-/0/1750414226347?e=1755734400&v=beta&t=8xsqtKOJwIMLYCmAFZr8szCVYRvYb1XcYI1h9dpnwVM",
       skills: ["UI/UX Specialist ", "Video Creator", "Video & Photo Editing","Figma", "Photoshop", "Illustrator"],
-      bio: "I design bold visuals, intuitive interfaces, and dynamic videos that tell powerful stories. From branding to user flows to motion content. I bring ideas to life with creativity and clarity."
+      bio: "I design bold visuals, intuitive interfaces, and dynamic videos that tell powerful stories. From branding to user flows to motion content. I bring ideas to life with creativity and clarity.",
+      linked: "https://www.linkedin.com/in/serge-rwogera-282105129/",
+      github: "",
+      twitter: "https://x.com/RwogeraSerge"
     }
   ];
 
@@ -92,15 +110,21 @@ const Team = () => {
                 </div>
                 
                 <div className="flex justify-center space-x-3">
-                  <button className="w-8 h-8 bg-gradient-to-r from-[#46eefb] to-[#c775b7] rounded-full flex items-center justify-center hover:scale-110 transition-transform duration-200">
+                  <a href={member.github} target="_blank" rel="noopener noreferrer">
+                    <button className="w-8 h-8 bg-gradient-to-r from-[#46eefb] to-[#c775b7] rounded-full flex items-center justify-center hover:scale-110 transition-transform duration-200">
                     <Github className="w-4 h-4 text-black" />
                   </button>
-                  <button className="w-8 h-8 bg-gradient-to-r from-[#46eefb] to-[#c775b7] rounded-full flex items-center justify-center hover:scale-110 transition-transform duration-200">
+                  </a>
+                  <a href={member.linked} target="_blank" rel="noopener noreferrer">
+                    <button className="w-8 h-8 bg-gradient-to-r from-[#46eefb] to-[#c775b7] rounded-full flex items-center justify-center hover:scale-110 transition-transform duration-200">
                     <Linkedin className="w-4 h-4 text-black" />
                   </button>
-                  <button className="w-8 h-8 bg-gradient-to-r from-[#46eefb] to-[#c775b7] rounded-full flex items-center justify-center hover:scale-110 transition-transform duration-200">
+                  </a>
+                  <a href={member.twitter} target="_blank" rel="noopener noreferrer">
+                    <button className="w-8 h-8 bg-gradient-to-r from-[#46eefb] to-[#c775b7] rounded-full flex items-center justify-center hover:scale-110 transition-transform duration-200">
                     <Twitter className="w-4 h-4 text-black" />
                   </button>
+                  </a>
                 </div>
               </CardContent>
             </Card>
