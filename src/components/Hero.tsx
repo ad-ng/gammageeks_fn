@@ -6,7 +6,7 @@ import MyImage from '../../public/gammageeks.png';
 
 const Hero = () => {
   return (
-    <section className="relative min-h-screen flex items-center justify-center px-4 overflow-hidden">
+    <section className="min-h-screen flex items-center justify-center px-4 overflow-hidden">
       <div className="absolute top-8 left-8 w-1/6 ">
       <img src={MyImage} alt="app logo" />
      </div>
@@ -18,7 +18,7 @@ const Hero = () => {
       
       <div className="relative z-10 text-center max-w-6xl mx-auto">
         <h1 className="text-6xl md:text-8xl font-bold mb-8 bg-gradient-to-r from-[#46eefb] to-[#c775b7] bg-clip-text text-transparent animate-fade-in">
-          GammaGeeks
+          Welcome To GammaGeeks
         </h1>
         
         <p className="text-xl md:text-2xl text-white mb-8 max-w-4xl mx-auto leading-relaxed animate-fade-in">
